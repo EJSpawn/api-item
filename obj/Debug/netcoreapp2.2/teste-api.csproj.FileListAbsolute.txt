@@ -1,0 +1,14 @@
+D:\DESENV\workspaces\workspace-teste\teste-api\bin\Debug\netcoreapp2.2\teste-api.deps.json
+D:\DESENV\workspaces\workspace-teste\teste-api\bin\Debug\netcoreapp2.2\teste-api.runtimeconfig.json
+D:\DESENV\workspaces\workspace-teste\teste-api\bin\Debug\netcoreapp2.2\teste-api.runtimeconfig.dev.json
+D:\DESENV\workspaces\workspace-teste\teste-api\bin\Debug\netcoreapp2.2\teste-api.dll
+D:\DESENV\workspaces\workspace-teste\teste-api\bin\Debug\netcoreapp2.2\teste-api.pdb
+D:\DESENV\workspaces\workspace-teste\teste-api\obj\Debug\netcoreapp2.2\teste-api.csprojAssemblyReference.cache
+D:\DESENV\workspaces\workspace-teste\teste-api\obj\Debug\netcoreapp2.2\teste-api.csproj.CoreCompileInputs.cache
+D:\DESENV\workspaces\workspace-teste\teste-api\obj\Debug\netcoreapp2.2\teste-api.RazorAssemblyInfo.cache
+D:\DESENV\workspaces\workspace-teste\teste-api\obj\Debug\netcoreapp2.2\teste-api.RazorAssemblyInfo.cs
+D:\DESENV\workspaces\workspace-teste\teste-api\obj\Debug\netcoreapp2.2\teste-api.AssemblyInfoInputs.cache
+D:\DESENV\workspaces\workspace-teste\teste-api\obj\Debug\netcoreapp2.2\teste-api.AssemblyInfo.cs
+D:\DESENV\workspaces\workspace-teste\teste-api\obj\Debug\netcoreapp2.2\teste-api.RazorTargetAssemblyInfo.cache
+D:\DESENV\workspaces\workspace-teste\teste-api\obj\Debug\netcoreapp2.2\teste-api.dll
+D:\DESENV\workspaces\workspace-teste\teste-api\obj\Debug\netcoreapp2.2\teste-api.pdb
