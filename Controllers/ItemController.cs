@@ -1,14 +1,12 @@
 ﻿namespace teste_api.Controllers
 {
-    using System;
+    using item_api.Models;
+    using Microsoft.AspNetCore.Mvc;
     using System.Collections.Generic;
     using System.Linq;
-    using System.Threading.Tasks;
-    using Microsoft.AspNetCore.Mvc;
     using teste_api.Infrastructure;
-    using item_api.Models;
 
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class ItemController : ControllerBase
     {
@@ -17,24 +15,24 @@
         public ItemController(MemoryContext context){
             _context = context;
             var firstItem = context.Item.OrderByDescending(i => i.Id).Take(1).FirstOrDefault();
-            var auxId = firstItem == null ? 1 : firstItem.Id;
-            var maxId = auxId + 100;
-            for(var i = auxId; i <= maxId; i++)
-            {
-                var item = new Item()
+            var auxId = firstItem == null ? 1 : firstItem.Id+1;
+            var maxId = auxId + 10;
+            if(auxId <= 10) { 
+                for(var i = auxId; i <= maxId; i++)
                 {
-                    Id = i,
-                    Code = "Code " + i,
-                    Description = "Desc " + i
-                };
-                context.Item.Add(item);
+                    var item = new Item()
+                    {
+                        Id = i,
+                        Code = "Code " + i,
+                        Description = "Desc " + i
+                    };
+                    context.Item.Add(item);
                 
-                if(i % 100 == 0){
-                    context.SaveChanges();
+                    if(i % 10 == 0){
+                        context.SaveChanges();
+                    }
                 }
             }
-            
-            
         }
 
         // GET api/values
